@@ -6,7 +6,7 @@ Proposal to add an off-road (motocross/enduro) helmet emoji to Unicode. This rep
 
 [See the proposal](offroad-helmet-proposal.pdf) · [See all the variants](VARIANTS.md)
 
-## Asset licenses
+## Asset authorship
 
 | Path | Author |
 |------|--------|
