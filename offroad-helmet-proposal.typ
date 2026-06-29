@@ -1,12 +1,12 @@
 // ============================================================
-// Unicode Emoji Proposal — Typst template (de-facto ESC format)
+// Unicode Emoji Proposal - Typst template (de-facto ESC format)
 // Compile: typst compile offroad-helmet-proposal.typ
 // Replicates the Google-Docs look of recent successful proposals
 // ============================================================
 
 // ---------- config ----------
 #let accent = rgb("#444444")
-#let submitted = "DRAFT — " + datetime.today().display("[year]-[month]-[day]")
+#let submitted = datetime.today().display("[year]-[month]-[day]")
 
 // Image slots: set to a path string when the asset exists, or none for a placeholder
 #let img-color-72 = "assets/MOTOCROSS HELMET EMOJI/Classic Sporty/72x72 PNG Transparent/Classic Sporty Color, with goggles.png"
@@ -49,7 +49,7 @@
 #show link: it => text(fill: rgb("#1155CC"), weight: "regular", underline(offset: 2.2pt, stroke: 0.6pt + rgb("#1155CC"), evade: true, it))
 
 // ============================================================
-// PAGE 1 — everything below must stay on the first page
+// PAGE 1 - everything below must stay on the first page
 // ============================================================
 
 = Proposal for Emoji: OFF-ROAD HELMET
@@ -60,9 +60,8 @@
 == Identification
 
 *CLDR Short Name:* off-road helmet \
-*CLDR Keywords:* motocross, supercross, supermoto, enduro, freestyle, downhill, BMX, ATV, aquabike, PWC, jet ski, goggles, gear, rider, protection \
-*Category:* Activities → sport; proposed to appear among the sports equipment, near 🛼 roller skates, 🛷 sled and 🥌 curling stone. \
-*Reference emoji (frequency comparison):* 🪖 military helmet (U+1FA96), see #link(<usage-level>)[§Usage Level].
+*CLDR Keywords:* *motocross, enduro, downhill, aquabike, ATV*, supercross, supermoto, freestyle, BMX, PWC, jet ski, goggles, gear, rider, protection \
+*Category:* Activities → sport; proposed to appear among the sports equipment, near 🛼~roller skates, 🛷~sled and 🥌~curling stone. \
 
 == Images
 
@@ -90,7 +89,7 @@
 
 === Expresses multiple concepts <multi-concepts>
 
-The off-road helmet — distinguished by its peak (sun visor), elongated chin bar, and open port worn with goggles — is the shared icon of an entire family of sports and of everyday riding culture:
+The off-road helmet --- distinguished by its peak (sun visor), elongated chin bar, and open port worn with goggles --- is the shared icon of an entire family of sports and of everyday riding culture:
 
 - *The off-road sports family:* motocross, supercross, enduro, freestyle motocross, ATV/quad racing, snow-bike, downhill and freeride mountain biking, BMX racing, aquabike racing#h(0.12em)#footnote[The UIM-ABP Aquabike World Championship, governed by the Union Internationale Motonautique (#link("https://www.aquabike.net/")); colloquially "jet ski" racing, after the genericized Kawasaki trademark. Competitors wear motocross/off-road helmets: Kevin Shaw, _Real Review: Fly Racing F2 Acetylene Helmet_ (a motocross helmet reviewed for PWC use), The Watercraft Journal, #link("https://watercraftjournal.com/real-review-fly-racing-f2-acetylene-helmet/").]; the helmets of all these disciplines share the same design, a single character could cover them all.
 - *Everyday riding:* the off-road helmet is a mass consumer product well beyond competition. The global motorcycle helmet market was valued at \~USD 3.35 billion in 2024 and is projected to reach USD 4.52 billion by 2030 (CAGR 5.1%), with off-road/racing helmets a distinct product segment#h(0.12em)#footnote[Grand View Research, _Motorcycle Helmet Market Size, Share & Trends Analysis Report, 2025–2030_, #link("https://www.grandviewresearch.com/industry-analysis/motorcycle-helmet-market"). "Off-road/Racing Helmets" is one of the report's product-type segments.]; for the off-road segment specifically, the off-road motorcycle accessories market, including helmets and goggles, is projected to reach USD 3.32 billion by 2034 (CAGR 5.1%)#h(0.12em)#footnote[Fact.MR, _Off-Road Motorcycle Accessories Market_, 2024–2034 (USD 2,020.1 million in 2024 → USD 3,322.0 million by 2034), via GlobeNewswire, #link("https://www.globenewswire.com/news-release/2024/11/11/2978189/0/en/Off-Road-Motorcycle-Accessories-Market-Set-to-Surge-at-5-1-CAGR-to-Reach-US-3-322-0-Million-by-2034-Fact-MR-Report.html").]. On the road it is the helmet of choice of the supermoto scene, MX-style helmets are in regular street use#h(0.12em)#footnote[Michael Parrotte (founder of AGV Sports Group; former Vice-President of AGV Helmets America), _Can I Use a MX Style Motocross Dirt Bike Helmet on the Road for Street Riding?_, AGVSPORT, #link("https://agvsport.com/blog/most-popular/dirt-bike-helmet-for-road.html").], and the MX-derived "dual-sport" helmet is treated as a mainstream on/off-road street category#h(0.12em)#footnote[Kurt Spurlock, _7 Best Dual Sport Helmets_, RIDE Adventures, #link("https://www.rideadv.com/ride-adventures-tour-and-rentals-blog/best-dual-sport-helmets"); and RoadRUNNER, _9 Best Motorcycle Helmets for Dual Sport Riding_, #link("https://www.roadrunner.travel/products/9-best-motorcycle-helmets-for-dual-sport-riding/"). Both treat the MX-derived dual-sport helmet as a versatile street/off-road category.]. In Southern Europe and Latin America, motocross-style helmets are everyday wear on motorcycles and even scooters#h(0.12em)#footnote[Passion Moto Sécurité#super[\[fr\]], _Les différents types de casques moto_, #link("https://moto-securite.fr/types-casques/"). The cross helmet is "prisé des jeunes conducteurs urbains de cyclomoteurs" ("popular with young urban moped riders").]#super[,#h(0.12em)]#footnote[La Bécanerie#super[\[fr\]], _Casque moto_, #link("https://www.la-becanerie.com/casque/"). Cross helmets are "fréquent \[...\] sur de jeunes pilotes de 50 à boîte" ("common \[...\] on young riders of geared 50cc mopeds").]#super[,#h(0.12em)]#footnote[Inducascos#super[\[es\]], _La moda del casco cross se traslada de la pista a la ciudad_ ("the cross-helmet trend moves from the track to the city"), 2022, #link("https://www.inducascos.com/blog/post/casco-cross-como-usar").]. The object reads as "rider", not only "off-road racer"#h(0.12em)#footnote[Expanded in #link(<helmet-identity>)[§_Helmet as identity_], under #link(<other-information>)[§_Other information_].]<fn-idexp>.
@@ -184,7 +183,7 @@ No emoji or sequence conveys off-road riding or its sports:
 
 === Not overly specific
 
-The off-road helmet is the _category_ object. One shape shared across motorized (MX, enduro, ATV) and gravity (DH MTB, BMX) sports, plus everyday riding. It is the paradigm, exactly as 🍣 represents all sushi: vendors may draw different graphics, but the grapheme is one.
+The off-road helmet is the _category_ object. One shape shared across motorized (MX, enduro, ATV, aquabike racing) and gravity (DH MTB, BMX) sports, plus everyday riding. It is the paradigm, exactly as 🍣 represents all sushi.
 
 === Not open-ended
 
@@ -208,7 +207,7 @@ This proposal stands on its own evidence of frequency, distinctiveness, and cate
 
 #block(breakable: false)[*A note on cultural embedding.* A motocross starting line has sat in the canonical reference set of image processing for three decades: kodim05 ("several motocross racers ready to begin") of the Kodak Lossless True Color Image Suite (\~1993)#h(0.12em)#footnote[Kodak Lossless True Color Image Suite, image 05, #link("http://r0k.us/graphics/kodak/kodim05.html").] still anchors the standard image-compression benchmark today#h(0.12em)#footnote[Papers with Code, _Image Compression on Kodak_ benchmark, #link("https://web.archive.org/web/20240416173213/https://paperswithcode.com/sota/image-compression-on-kodak"). Also see: #link("https://orkg.org/benchmarks/PWC_KODAK_BENCHMARK_DATASET/problem/PWC_IMAGE_COMPRESSION_PROBLEM").], among others.]
 
-#block(breakable: false)[*Helmet as identity.* The helmet is a distinctive piece of the rider's identity and sense of self within the community#h(0.12em)#footnote[Roach-Higgins, M. E. and Eicher, J. B., _Dress and Identity_, Clothing and Textiles Research Journal 10(4), 1992, pp. 1–8, #link("https://doi.org/10.1177/0887302X9201000401"). Dress, defined as the supplements to and modifications of the body (the helmet among them), constitutes and communicates identity.]#super[,#h(0.12em)]#footnote[Motorcycling culture and identity sustain a dedicated peer-reviewed journal, the _International Journal of Motorcycle Studies_, published since 2005: #link("https://motorcyclestudies.org").]#super[,#h(0.12em)]#footnote[For the off-road disciplines specifically, the ethnographic fieldwork in Hagen, S., _The Downhill Mountain Bike Subculture in New Zealand_, MPhEd thesis, University of Otago, 2013, #link("https://ourarchive.otago.ac.nz/handle/10523/4042"), documents the subculture's dress and identity codes.]. Online spaces have a long tradition of creators who communicate — and thus exist there — through their helmet rather than their face#h(0.12em)#footnote[Wikipedia, _Motovlog_, #link("https://en.wikipedia.org/wiki/Motovlog").].] <helmet-identity>
+#block(breakable: false)[*Helmet as identity.* The helmet is a distinctive piece of the rider's identity and sense of self within the community#h(0.12em)#footnote[Roach-Higgins, M. E. and Eicher, J. B., _Dress and Identity_, Clothing and Textiles Research Journal 10(4), 1992, pp. 1–8, #link("https://doi.org/10.1177/0887302X9201000401"). Dress, defined as the supplements to and modifications of the body (the helmet among them), constitutes and communicates identity.]#super[,#h(0.12em)]#footnote[Motorcycling culture and identity sustain a dedicated peer-reviewed journal, the _International Journal of Motorcycle Studies_, published since 2005: #link("https://motorcyclestudies.org").]#super[,#h(0.12em)]#footnote[For the off-road disciplines specifically, the ethnographic fieldwork in Hagen, S., _The Downhill Mountain Bike Subculture in New Zealand_, MPhEd thesis, University of Otago, 2013, #link("https://ourarchive.otago.ac.nz/handle/10523/4042"), documents the subculture's dress and identity codes.]. Online spaces have a long tradition of creators who communicate --- and thus exist there --- through their helmet rather than their face#h(0.12em)#footnote[Wikipedia, _Motovlog_, #link("https://en.wikipedia.org/wiki/Motovlog").].] <helmet-identity>
 
 *Design considerations for vendors:*
 
@@ -226,8 +225,8 @@ Full-resolution renderings of the proposed emoji, in both variants#h(0.12em)#foo
 
 #grid(columns: (1fr, 1fr), column-gutter: 2em, row-gutter: 1.5em, align: center + horizon,
   muted[with goggles], muted[without goggles],
-  [#slot(img-color-full, 180pt, 180pt, "color — with goggles (full resolution)")],
-  [#slot(img-color-ng-full, 180pt, 180pt, "color — without goggles (full resolution)")],
-  [#slot(img-bw-full, 180pt, 180pt, "black & white — with goggles (full resolution)")],
-  [#slot(img-bw-ng-full, 180pt, 180pt, "black & white — without goggles (full resolution)")],
+  [#slot(img-color-full, 180pt, 180pt, "color --- with goggles (full resolution)")],
+  [#slot(img-color-ng-full, 180pt, 180pt, "color --- without goggles (full resolution)")],
+  [#slot(img-bw-full, 180pt, 180pt, "black & white --- with goggles (full resolution)")],
+  [#slot(img-bw-ng-full, 180pt, 180pt, "black & white --- without goggles (full resolution)")],
 )
